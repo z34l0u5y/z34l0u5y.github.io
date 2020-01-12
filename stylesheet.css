@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'lucida_granderegular';
+    src: url('lucidagrande-webfont.woff2') format('woff2'),
+         url('lucidagrande-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lucida_granderegular';
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.content1 {
+    height: 100vh;
+    background-image: url(Images/Background3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content2 {
+    height: 100vh;
+    background-image: url(Images/Background1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content3 {
+    height: 100vh;
+    background-color: #272828;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-family: "lucida_granderegular";
+    font-size: 25px;
+}
+
+img {
+    max-width:100%
+}
+
+footer {
+    font-family: serif;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #d8d7d7;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
