@@ -42,7 +42,7 @@ html {
 
 .content2 {
     height: 100vh;
-    background-image: url(Images/Background1.png);
+    background-image: url(Images/Background.png);
     background-size: cover;
     background-position: center;
     display: flex;
