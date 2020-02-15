@@ -42,7 +42,7 @@ html {
 
 .content2 {
     height: 100vh;
-    background-image: url(Images/Background.png);
+    background-color: #272828;
     background-size: cover;
     background-position: center;
     display: flex;
