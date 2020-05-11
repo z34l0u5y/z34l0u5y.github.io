@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile https://finleygomez.com/.htpasswd
+AuthUserFile /epk/.htpasswd
 require valid-user
