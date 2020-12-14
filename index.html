@@ -64,4 +64,10 @@
         gtag('js', new Date());
         gtag('config', 'UA-142780243-2');
     </script>
+    <script>
+        $('a').each(function(){  
+        $(this).attr('onclick','window.location.href="'+$(this).attr('href')+'"');
+        $(this).attr('href','#');
+        });
+    </script>
 </body></html>
